@@ -1,12 +1,11 @@
 # Hey, I'm JoeCamPDB 👋
 
-![Header Image](https://raw.githubusercontent.com/JoeCamPDB/JoeCamPDB/main/header.png) <!-- Replace with your new banner URL -->
 
 ### Structural Bioinformatics & AI-Driven Protein Design
 
 I'm a bioinformatics researcher specializing in structural biology, with a focus on developing robust, reusable tooling and scaffolding for protein structure prediction, design, and analysis using modern AI techniques (e.g., geometric deep learning).
 
-While I maintain interest in genomics and transcriptomics, my primary efforts are now centered on structural bioinformatics, protein folding algorithms, and related AI methods.
+While I maintain interest in genomics and transcriptomics, my primary efforts are now centered on structural bioinformatics, co-folding algorithms, and related AI methods.
 
 ## About Me
 
