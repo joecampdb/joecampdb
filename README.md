@@ -103,10 +103,6 @@ https://github.com/user-attachments/assets/919276d8-6a91-46fc-bdd3-2cc9d2bb8c4b
 
 📫 **[joecamxtc@gmail.com](mailto:joecamxtc@gmail.com)** &nbsp;·&nbsp; 𝕏 **[@bioinfojoe](https://x.com/bioinfojoe)** &nbsp;·&nbsp; he/him
 
-<br>
-
-<img src="https://github-readme-stats.vercel.app/api?username=joecampdb&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=transparent&hide_title=true" height="150" alt="GitHub stats">
-
 <sub>Several repositories are private while the work is in progress.</sub>
 
 </div>
