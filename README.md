@@ -4,9 +4,15 @@
 
 **Structural bioinformatics · AI-driven protein design · molecular simulation**
 
-</div>
+<br>
 
-https://github.com/user-attachments/assets/919276d8-6a91-46fc-bdd3-2cc9d2bb8c4b
+<img src="https://raw.githubusercontent.com/joecampdb/joecampdb/main/knot_writhe_ssfm_vs_painn.gif" alt="A knotted trefoil polymer rolled out by two learned surrogates. The SSFM-style stepper holds the knot while the PaiNN-style stepper unties it, shown by the writhe traces below." width="100%">
+
+<sub>**A knot is a metric your structural scores can't see.** Same trefoil, two learned surrogates.
+The SSFM-style stepper (green) tracks reference writhe at |w| ≈ 3.5 for the whole rollout;
+the PaiNN-style stepper (red) drifts toward 0 — the ring has passed through itself.</sub>
+
+</div>
 
 I'm a bioinformatics researcher specializing in structural biology, with a focus on developing
 robust, reusable tooling and scaffolding for protein structure prediction, design, and analysis
@@ -47,6 +53,10 @@ OVITO/Tachyon rendering path that turns trajectories into publication frames.
 `ia` — a small specification language, with parser, grammar and checker, for writing down what a
 research probe actually claims to measure. Alongside it: calibration and scale-budget interfaces,
 and tooling over NeuroMorpho / Arbor morphologies.
+
+---
+
+https://github.com/user-attachments/assets/919276d8-6a91-46fc-bdd3-2cc9d2bb8c4b
 
 ---
 
