@@ -6,11 +6,12 @@
 
 <br>
 
-<img src="https://raw.githubusercontent.com/joecampdb/joecampdb/main/knot_writhe_ssfm_vs_painn.gif" alt="A knotted trefoil polymer rolled out by two learned surrogates. The SSFM-style stepper holds the knot while the PaiNN-style stepper unties it, shown by the writhe traces below." width="100%">
+<img src="https://raw.githubusercontent.com/joecampdb/joecampdb/main/knot_writhe_ssfm_vs_painn.gif" alt="Ray-traced animation of a knotted trefoil polymer rolled out by two learned surrogates. The SSFM-style stepper holds the knot while the PaiNN-style stepper unties it, shown by the writhe traces below." width="100%">
 
-<sub>**A knot is a metric your structural scores can't see.** Same trefoil, two learned surrogates.
-The SSFM-style stepper (green) tracks reference writhe at |w| ≈ 3.5 for the whole rollout;
-the PaiNN-style stepper (red) drifts toward 0 — the ring has passed through itself.</sub>
+<sub>**A knot is a metric your structural scores can't see.** Same trefoil, two learned surrogates,
+ray-traced with OVITO Tachyon. The SSFM-style stepper (green) tracks reference writhe at |w| ≈ 3.5
+for the whole rollout; the PaiNN-style stepper (red) drifts toward 0 — the ring has passed
+through itself and the trefoil is gone.</sub>
 
 </div>
 
