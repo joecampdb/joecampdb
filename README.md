@@ -1,52 +1,99 @@
+<div align="center">
+
 # Hey, I'm JoeCamPDB 👋
 
+**Structural bioinformatics · AI-driven protein design · molecular simulation**
 
+</div>
 
 https://github.com/user-attachments/assets/919276d8-6a91-46fc-bdd3-2cc9d2bb8c4b
 
+I'm a bioinformatics researcher specializing in structural biology, with a focus on developing
+robust, reusable tooling and scaffolding for protein structure prediction, design, and analysis
+using modern AI techniques (e.g. geometric deep learning).
 
-### Structural Bioinformatics & AI-Driven Protein Design
+While I maintain interest in genomics and transcriptomics, my primary efforts are now centered on
+structural bioinformatics, co-folding algorithms, and related AI methods.
 
-I'm a bioinformatics researcher specializing in structural biology, with a focus on developing robust, reusable tooling and scaffolding for protein structure prediction, design, and analysis using modern AI techniques (e.g., geometric deep learning).
+---
 
-While I maintain interest in genomics and transcriptomics, my primary efforts are now centered on structural bioinformatics, co-folding algorithms, and related AI methods.
+## Selected work
 
-## About Me
+### 🪢 Does the surrogate keep the knot?
+**Topology preservation in learned polymer-dynamics models**
+
+Learned surrogates for molecular dynamics are graded on *structure* (radius of gyration, contacts)
+and *dynamics* (diffusion, relaxation). This project asks a third question those metrics can miss
+entirely: **when a surrogate rolls out a knotted polymer, does the knot survive?**
+
+On a controlled ladder of coarse-grained Kremer–Grest systems, the model with the **best**
+structural score (Rg-W2 = 0.02) retains the trefoil in only **49%** of frames — the ring breaks and
+collapses into a compact tangle that still *looks* right structurally. Only a topology metric
+exposes it. The stable steppers keep the knot **100%** of the time, with no topology conditioning
+at all.
+
+> Stability — not expressivity, not topology-conditioning — is what preserves topology.
+
+### 🧫 MEM-CALVADOS membrane pipeline
+**Coarse-grained membranes, from force field to ray-traced frame**
+
+End-to-end simulation and analysis for coarse-grained bilayers and vesicles: curvature and
+electrostatics analysis, HCN1 in a membrane environment, vesicle systems up to 35 nm, and an
+OVITO/Tachyon rendering path that turns trajectories into publication frames.
+
+### 🔬 Agentic research infrastructure
+**Tooling that keeps a research loop honest**
+
+`ia` — a small specification language, with parser, grammar and checker, for writing down what a
+research probe actually claims to measure. Alongside it: calibration and scale-budget interfaces,
+and tooling over NeuroMorpho / Arbor morphologies.
+
+---
+
+## About me
 
 - Background in structural biology, materials science, computational epigenetics, and neuroscience.
 - Passionate about understanding systems at molecular, biological, and computational levels.
+- 🌱 Currently learning geometric deep learning, manifold learning, and advanced docking / side-chain packing.
+- 🤔 Seeking collaboration on persistent homology and optimization challenges in protein modeling.
+- 💬 Ask me about protein folding algorithms, geometric deep learning on biomolecules, or AlphaFold variants.
+- ⚡ Fun fact: humans are about one centimeter taller in the morning than at night, from spinal disc decompression.
 
-## What I'm Working On
+## Toolkit
 
-- 🔭 Developing structural bioinformatics tooling and AI-driven protein design scaffolding
-- 🌱 Learning geometric deep learning, manifold learning, and advanced docking/side-chain packing methods
-- 🤔 Seeking collaboration on persistent homology and optimization challenges in protein modeling
-- 💬 Ask me about protein folding algorithms, geometric deep learning on biomolecules, or AlphaFold variants
-- 📫 Reach me: joecamxtc@gmail.com
-- 😄 Pronouns: he/him
-- ⚡ Fun fact: Humans are about one centimeter taller in the morning than at night due to spinal disc decompression.
+**Structure prediction & design**
 
-→ Follow me on X: [@bioinfojoe](https://x.com/bioinfojoe)
+![AlphaFold](https://img.shields.io/badge/AlphaFold-4285F4?style=flat-square&logo=google&logoColor=white)
+![ColabFold](https://img.shields.io/badge/ColabFold-FF9900?style=flat-square&logo=jupyter&logoColor=white)
+![Boltz-2](https://img.shields.io/badge/Boltz--2-4A90E2?style=flat-square)
+![ProteinMPNN](https://img.shields.io/badge/ProteinMPNN-6A1B9A?style=flat-square)
+![DiffDock](https://img.shields.io/badge/DiffDock-7E57C2?style=flat-square)
+![AutoDock](https://img.shields.io/badge/AutoDock-388E3C?style=flat-square)
 
-<p align="left">
-  <img src="https://img.shields.io/badge/PyTorch%20Geometric-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch Geometric" />
-  <img src="https://img.shields.io/badge/e3nn-0769AD?style=for-the-badge&logo=python&logoColor=white" alt="e3nn" />
-</p>
+**Geometric deep learning**
 
-<p align="left">
-  <img src="https://img.shields.io/badge/AlphaFold-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="AlphaFold" />
-  <img src="https://img.shields.io/badge/ColabFold-FF9900?style=for-the-badge&logo=jupyter&logoColor=white" alt="ColabFold" />
-  <img src="https://img.shields.io/badge/Boltz--2-4A90E2?style=for-the-badge&logo=brain&logoColor=white" alt="Boltz-2" /> <!-- Blue for AI models; generic brain icon -->
-  <img src="https://img.shields.io/badge/ProteinMPNN-6A1B9A?style=for-the-badge&logo=network&logoColor=white" alt="ProteinMPNN" /> <!-- Purple-ish for networks; generic network icon -->
-</p>
+![PyTorch Geometric](https://img.shields.io/badge/PyTorch%20Geometric-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![e3nn](https://img.shields.io/badge/e3nn-0769AD?style=flat-square&logo=python&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
 
-<p align="left">
-  <img src="https://img.shields.io/badge/DiffDock-7E57C2?style=for-the-badge&logo=atom&logoColor=white" alt="DiffDock" /> <!-- Purple for diffusion; atom icon -->
-  <img src="https://img.shields.io/badge/AutoDock-388E3C?style=for-the-badge&logo=anchor&logoColor=white" alt="AutoDock" /> <!-- Green for classic tools; anchor as docking pun -->
-</p>
+**Simulation**
 
-<p align="left">
-  <img src="https://img.shields.io/badge/LAMMPS-0277BD?style=for-the-badge&logo=atom&logoColor=white" alt="LAMMPS" /> <!-- Blue for simulations -->
-  <img src="https://img.shields.io/badge/oxDNA-2E7D32?style=for-the-badge&logo=dna&logoColor=white" alt="oxDNA" /> <!-- Green for biology; hypothetical dna icon if added to shields -->
-  <img src="https://img.shields.io/badge/Gromacs-1565C0?style=for-the-badge&logo=water&logoColor=white" alt="Gromacs" /> <!-- Blue for MD; water icon for solvated sims -->
-</p>
+![GROMACS](https://img.shields.io/badge/GROMACS-1565C0?style=flat-square)
+![OpenMM](https://img.shields.io/badge/OpenMM-005571?style=flat-square)
+![LAMMPS](https://img.shields.io/badge/LAMMPS-0277BD?style=flat-square)
+![oxDNA](https://img.shields.io/badge/oxDNA-2E7D32?style=flat-square)
+![MDAnalysis](https://img.shields.io/badge/MDAnalysis-FF6F00?style=flat-square)
+
+---
+
+<div align="center">
+
+📫 **[joecamxtc@gmail.com](mailto:joecamxtc@gmail.com)** &nbsp;·&nbsp; 𝕏 **[@bioinfojoe](https://x.com/bioinfojoe)** &nbsp;·&nbsp; he/him
+
+<br>
+
+<img src="https://github-readme-stats.vercel.app/api?username=joecampdb&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=transparent&hide_title=true" height="150" alt="GitHub stats">
+
+<sub>Several repositories are private while the work is in progress.</sub>
+
+</div>
