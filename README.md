@@ -6,10 +6,10 @@
 
 <br>
 
-<img src="https://raw.githubusercontent.com/joecampdb/joecampdb/main/knot_writhe_ssfm_vs_painn.gif" alt="Ray-traced animation of a knotted trefoil polymer rolled out by two learned surrogates. The SSFM-style stepper holds the knot while the PaiNN-style stepper unties it, shown by the writhe traces below." width="100%">
+<img src="https://raw.githubusercontent.com/joecampdb/joecampdb/main/knot_writhe_ssfm_vs_painn.gif" alt="Ray-marched animation of a knotted trefoil polymer rolled out by two learned surrogates. The SSFM-style stepper holds the knot while the PaiNN-style stepper unties it, shown by the writhe traces below." width="100%">
 
 <sub>**A knot is a metric your structural scores can't see.** Same trefoil, two learned surrogates,
-ray-traced with OVITO Tachyon. The SSFM-style stepper (green) tracks reference writhe at |w| ≈ 3.5
+ray-marched as SDF tubes with soft self-shadows. The SSFM-style stepper (green) tracks reference writhe at |w| ≈ 3.5
 for the whole rollout; the PaiNN-style stepper (red) drifts toward 0 — the ring has passed
 through itself and the trefoil is gone.</sub>
 
@@ -48,14 +48,16 @@ End-to-end simulation and analysis for coarse-grained bilayers and vesicles: cur
 electrostatics analysis, HCN1 in a membrane environment, vesicle systems up to 35 nm, and an
 OVITO/Tachyon rendering path that turns trajectories into publication frames.
 
-### 🔬 Agentic research infrastructure
-**Tooling that keeps a research loop honest**
+### 🧬 DNA origami nanoswitches
+**Characterizing the bond angle distribution of DNA origami nanoswitches — master's thesis, 2025**
 
-`ia` — a small specification language, with parser, grammar and checker, for writing down what a
-research probe actually claims to measure. Alongside it: calibration and scale-budget interfaces,
-and tooling over NeuroMorpho / Arbor morphologies.
+Scaffold extensions on a DNA origami nanoswitch, built in oxView and simulated with the oxDNA2
+force field in LAMMPS. The thesis went after one mechanical property of these devices: how the
+**bond angle distribution** across a flexible linker responds to linker length.
 
----
+The obvious hypothesis is that a longer linker buys more conformational freedom. It doesn't.
+Across linkers of 10, 20, 30 and 40 nucleotides, angular variance *falls* as the linker grows,
+decaying exponentially — longer linkers **stabilize** the joint rather than loosening it.
 
 https://github.com/user-attachments/assets/919276d8-6a91-46fc-bdd3-2cc9d2bb8c4b
 
