@@ -2,7 +2,7 @@
 
 # Hey, I'm JoeCamPDB 👋
 
-**Structural bioinformatics · AI-driven protein design · molecular simulation**
+**Structural bioinformatics · AI for TechBio · molecular simulation**
 
 <br>
 
