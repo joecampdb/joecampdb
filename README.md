@@ -101,7 +101,7 @@ https://github.com/user-attachments/assets/919276d8-6a91-46fc-bdd3-2cc9d2bb8c4b
 
 <div align="center">
 
-📫 **[joecamxtc@gmail.com](mailto:joecamxtc@gmail.com)** &nbsp;·&nbsp; 𝕏 **[@bioinfojoe](https://x.com/bioinfojoe)** &nbsp;·&nbsp; he/him
+📫 **[joecamxtc@gmail.com](mailto:joecamxtc@gmail.com)** &nbsp;·&nbsp; 𝕏 **[@6ioneer](https://x.com/6ioneer)** &nbsp;·&nbsp; he/him
 
 <sub>Several repositories are private while the work is in progress.</sub>
 
